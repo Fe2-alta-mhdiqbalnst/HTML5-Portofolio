@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/me.png">
+   
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a id="page-home" class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="page-about" class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a id="page-project" class="nav-link" href="#myprojects">My Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="page-contact" class="nav-link btn-contact" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <div class="home-top" >
+     <div class="bg-one"><img src="assets/bg-1.png" alt=""></div>
+    
+     <div id="homeSlide1" class="top-main"></div>
+     <div id="homeSlide2">
+       <div class="top-text">
+       <p>Hi Guys !</p>
+       <p>Welcome to <span>My Portfolio</span></p>
+      </div>
+       <div class="top-text2">
+       <p>My name is Muhammad Iqbal Nst, I`m a Front-End Engineer</p>
+       <p>Based on Indonesia, I graduated from Alterra Academy</p>
+      </div>
+      <div class="social-media">
+       <a href="#"><img src="assets/instagram.png" alt="instagram" ></a>
+       <a href="#"><img src="assets/telegram.png" alt="telegram" ></a>
+       <a href="#"><img src="assets/linked-in.png" alt="linked-in" ></a>
+      </div>
+    </div>
+   </div>
+
+ 
+  
+   <div id="about" class="about-me">
+     <div class="bg-two"><img src="assets/bg-2.png" alt="background-about" width="200px"></div>
+     <div class="about-top">
+      <img src="assets/bg-title.png" alt="bg-title" width="310px">
+      <div class="title-aboutMe">About Me</div>
+    </div>
+    <div class="about-mid">
+      <div id="aboutSlide1" class="about-text">
+        <p>How I can to be a Software Engineer</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente est esse! Error illo tempora, sapiente iure quos delectus cupiditate! Atque dolorem eligendi corporis animi autem ullam provident, labore in.</p>
+        <p>Read More...</p>
+      </div>
+      <div id="aboutSlide2" class="about-img">
+        <img src="assets/me.png" alt="me" width="250px">
+      </div>
+    </div>
+   </div>
+
+   <div id="myprojects" class="projects">
+     <div class="bg-three"><img src="assets/bg-3.png" alt="my-project" width="150px"></div>
+     <div class="bg-four"><img src="assets/bg-3.png" alt="my-project" width="150px"></div>
+     <div class="projects-title">
+       <p> My Projects </p>
+     </div>
+     <div class="projects-card">
+       <div id="leftArrow" class="card-leftArrow"><img src="assets/left-arrow.png" alt=""></div>
+       <div id="cardOne" class="card-1"></div>
+       <div id="cardTwo" class="card-2"></div>
+       <div id="cardThree" class="card-3"></div>
+       <div id="rightArrow" class="card-rightArrow"><img src="assets/right-arrow.png" alt=""></div>
+     </div>
+   </div>
+
+   <div id="contact" class="contact">
+     <div class="contact-title">
+       <p>Contact</p>
+     </div>
+     <div class="contact-form">
+       <div class="form-1">
+         <label>Phone</label>
+         <p><img src="assets/phone.png" alt="phone" width="20px"> +62 823 7078 5302</p>
+         <label>Email</label>
+         <p><img src="assets/envelope.png" alt="envelope" width="20px"> muhammadiqbal121994@gmail.com</p>
+         <label>Website</label>
+         <p><img src="assets/browser.png" alt="browser" width="20px"> https://contact-me.co.id</p>
+       </div>
+       <div class="form-2">
+         <p>If you have any suggestion, project or even you want to say, Hello.. Please fill out the form below and I will reply you shortly.</p>
+         <form action="#alert" >
+           <label for="name">Full Name <span>*</span> </label>
+           <input type="text" class="form-control p-2" required><br>
+           <label for="email">Email Address<span>*</span></label>
+           <input type="email" class="form-control p-2" required><br>
+           <label for="phone">Phone Number <span>*</span></label>
+           <input type="number" class="form-control" required><br>
+           <label for="message">Message <span>*</span></label>
+           <textarea class="form-control"  id="message" cols="20" rows="5" style="resize: none;" required></textarea><br>
+
+          <button type="submit" class="btn-send"><img src="assets/send-mail.png" alt="send" width="20px">Send</button>
+         </form>
+       </div>
+     </div>
+   </div>
+  
+    <script src="javaScript.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
